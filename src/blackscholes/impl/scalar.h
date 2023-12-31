@@ -11,5 +11,7 @@
 
 /* Function declaration */
 void* impl_scalar(void* args);
-
+float blackScholes(float sptprice, float strike, float rate, float volatility,
+                   float otime, int otype, float timet);
+float CNDF(float InputX);
 #endif //__IMPL_SCALAR_H_
